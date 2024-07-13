@@ -1,7 +1,7 @@
 import { useQuiz } from "../contexts/reactQuizContext"
 import Option from "./Option"
 import Progress from "./Progress"
-
+// new comment 
 function Question() {
    const {questions,points,index}=useQuiz();
    const currentQuestion=questions[index]
